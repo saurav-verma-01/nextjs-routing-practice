@@ -1,0 +1,43 @@
+.hero {
+  background-color: #4ca48a;
+  color: #fff;
+  padding: 2rem 4rem;
+  font-family: Poppins;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+}
+
+.subHeading {
+  font-size: 1.75rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.heading {
+  color: #ffd;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.text {
+  color: #fff;
+
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.cta {
+  display: flex;
+  padding: 0.5rem 1.25rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  border-radius: 0.625rem;
+  border: 2px solid var(--White, #fff);
+}
